@@ -1,0 +1,8 @@
+# Every change is reviewed by a maintainer.
+* @innerluxesdev
+
+# The lock file reader, the range matcher, the checks and the SARIF output decide every line of the report; changes need extra care.
+/src/load.js @innerluxesdev
+/src/semver-range.js @innerluxesdev
+/src/check.js @innerluxesdev
+/src/sarif.js @innerluxesdev
