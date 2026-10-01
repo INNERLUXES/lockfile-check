@@ -1,0 +1,48 @@
+{
+  "name": "lockfile-check",
+  "version": "1.0.0",
+  "description": "Check an npm lock file for supply-chain risks before a Node.js back end is built or deployed: packages from git, plain URLs or local folders, http downloads, other registries, missing or weak integrity hashes, install scripts, a lock file out of sync with package.json, and more. Reads files only, never runs npm, no dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "lockfile-check": "bin/lockfile-check.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "test:coverage": "node --test --experimental-test-coverage \"test/*.test.js\"",
+    "check": "node tools/check.mjs",
+    "example": "node tools/example.mjs"
+  },
+  "keywords": [
+    "package-lock",
+    "lockfile",
+    "supply-chain",
+    "security",
+    "npm",
+    "nodejs",
+    "sarif",
+    "ci",
+    "cli"
+  ],
+  "author": "INNERLUXES <info@innerluxes.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INNERLUXES/lockfile-check.git"
+  },
+  "homepage": "https://innerluxes.dev/web-development/nodejs"
+}
