@@ -1,0 +1,20 @@
+{
+  "name": "example-orders-api",
+  "version": "1.4.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "example-http-server": "^4.18.2",
+    "example-router": "~1.4.0",
+    "example-db-client": "^8.11.3",
+    "example-validate": "^3.22.4",
+    "example-logger": "^9.1.0",
+    "example-orders-shared": "^1.0.0"
+  },
+  "devDependencies": {
+    "example-test-runner": "^10.4.0",
+    "example-lint": "^8.57.0"
+  }
+}

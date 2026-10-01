@@ -1,0 +1,16 @@
+{
+  "registries": [
+    "registry.npmjs.org",
+    "npm.example.internal"
+  ],
+  "allowInstallScripts": [
+    "example-native-hash@5.1.2"
+  ],
+  "ignore": [
+    {
+      "check": "deprecated",
+      "package": "example-request-lite",
+      "reason": "replaced by fetch in the next release"
+    }
+  ]
+}

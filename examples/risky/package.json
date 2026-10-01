@@ -1,0 +1,20 @@
+{
+  "name": "example-payments-api",
+  "version": "0.9.0",
+  "private": true,
+  "dependencies": {
+    "example-http-server": "^4.18.2",
+    "example-pdf-render": "github:example-org/example-pdf-render#v1.3.0",
+    "example-legacy-crypto": "http://files.example.com/example-legacy-crypto-0.9.1.tgz",
+    "example-private-auth": "^2.1.0",
+    "example-date-utils": "^2.29.0",
+    "example-orm": "^3.0.0",
+    "example-mailer": "^1.0.0",
+    "example-native-hash": "^5.1.0",
+    "example-image-tool": "^0.33.0",
+    "example-request-lite": "^2.88.0"
+  },
+  "devDependencies": {
+    "example-test-runner": "^10.4.0"
+  }
+}
